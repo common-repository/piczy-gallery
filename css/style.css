@@ -1,0 +1,64 @@
+.sizes,
+.forms{
+	padding: 15px;
+	background: #ffffff;
+}
+
+.sizes div.size,
+.forms div.form{
+	float: left;
+	margin-right: 15px;
+	border: 5px solid #ffffff;
+	position: relative;
+}
+
+.sizes div.size .label{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	background: rgba(255,255,255,0.7);
+	font-size: 10px;
+	padding: 4px 8px;
+}
+
+.sizes div.size img,
+.forms div.form img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.sizes div.size:hover,
+.sizes div.size.active{
+	border: 5px solid #777777;
+	cursor: pointer;
+}
+
+.sizes div.size.active{
+	border: 5px solid #00bb00;
+}
+
+.size_50{ width:50px; height: 50px; }
+.size_75{ width:75px; height: 75px; }
+.size_100{ width:100px; height: 100px; }
+.size_125{ width:125px; height: 125px; }
+.size_150{ width:150px; height: 150px; }
+.size_175{ width:175px; height: 175px; }
+.size_200{ width:200px; height: 200px; }
+
+.form_round,
+.form_round img{ border-radius: 50%; }
+
+
+.forms div.form:hover,
+.forms div.form.active{
+	border: 5px solid #777777;
+	cursor: pointer;
+}
+
+.forms div.form.active{
+	border: 5px solid #00bb00;
+}
+
+.clear{
+	clear: both;
+}

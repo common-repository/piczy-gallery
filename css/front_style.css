@@ -1,0 +1,251 @@
+a{
+	cursor: pointer;
+}
+
+.pz_overview{
+	padding: 5px;
+	text-align: center;
+}
+
+.pz_overview .pz_image{
+	display: inline-block;
+	border: 3px solid #ffffff;
+}
+
+.pz_overview .pz_image:hover{
+	border: 3px solid #555555;
+	cursor: pointer;
+}
+
+.pz_size_100,
+.pz_size_100 img{
+	width: 100px;
+	height: 100px;
+}
+
+.pz_size_125,
+.pz_size_125 img{
+	width: 125px;
+	height: 125px;
+}
+
+.pz_size_150,
+.pz_size_150 img{
+	width: 150px;
+	height: 150px;
+}
+
+.pz_size_175,
+.pz_size_175 img{
+	width: 175px;
+	height: 175px;
+}
+
+.pz_size_200,
+.pz_size_200 img{
+	width: 200px;
+	height: 200px;
+}
+
+.pz_form_round,
+.pz_form_round img{
+	border-radius: 50%;
+}
+
+
+#pz-pop-window{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: fixed;
+	background: rgba(0,0,0,0.6);
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+#pz-pop-form{
+	position: fixed;
+	z-index: 15;
+	top: 40px;
+	left: 40px;
+	bottom: 40px;
+	right: 40px;
+	background: #ffffff;
+	z-index: 99999;
+}
+
+#pz-close_icon{
+	position:absolute;
+	right: 8px;
+	top: 8px;
+}
+
+.pz_picture{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.pz_image_large{
+	width: 65%;
+	text-align: center;
+	background: #000000;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 100%;
+	position: relative;
+}
+
+.pz_side{
+	width: 35%;
+	display: table-cell;
+	vertical-align: top;
+	background: #eeeeee;
+}
+
+.pz_image_large img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.pz_description,
+.pz_replies,
+.pz_loves{
+	margin: 15px;
+}
+
+.pz_loves .pz_loving,
+.pz_description .pz_text{
+	padding: 10px;
+	background: #ffffff;
+}
+
+.pz_reply{
+	border-bottom: 1px solid #dddddd;
+	display: table;
+	width: 100%;
+}
+
+.pz_reply .pz_avatar{
+	width: 50px;
+	height: 50px;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.pz_reply:nth-child(even) {background: #f7f7f7}
+.pz_reply:nth-child(odd) {background: #ffffff}
+
+.pz_reply .pz_avatar img{
+	width: 44px;
+	height: 44px;
+	margin: 3px;
+}
+
+.pz_reply .pz_message{
+	padding: 4px;
+	display: table-cell;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.pz_reply .pz_message small{
+	font-size: 10px;
+	color: #888888;
+}
+
+.pz_reply_form{
+	padding: 5px;
+	background: #ffffff;
+}
+
+.pz_login{
+	text-align: center;
+	font-size: 12px;
+	padding: 15px 0px;
+}
+
+.pz_button{
+	background: #ff5500;
+	font-family: arial;
+	font-size: 12px;
+	padding: 8px 12px;
+}
+
+.pz_button:hover{
+	background: #444444;
+}
+
+.pz_replyform{
+	padding: 5px;
+}
+
+.pz_replyform .pz_user{
+	font-size: 11px;
+	float: left;
+}
+
+.pz_replyform .pz_user img{
+	margin-right: 5px;
+}
+
+.pz_replyform .pz_field textarea{
+	padding: 4px;
+	font-size: 12px;
+	width: 100%;
+	height: 45px;
+	margin-bottom: 5px;
+}
+
+.pz_replyform button{
+	font-size: 12px;
+	padding: 4px 8px;
+	margin-left: 15px;
+}
+
+.pz_right{
+	float: right;
+}
+
+.pz_clear{
+	clear: both;
+}
+
+.pz_prev,
+.pz_next{
+	display: block;
+	padding: 3px 4px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 40%;
+	font-size: 40px;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.pz_prev:hover,
+.pz_next:hover{
+	background: rgba(255, 85, 0, 0.50);
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.pz_next{
+	right: 5px;
+}
+.pz_prev{
+	left: 5px;
+}
+
+.pz_hide{
+	display: none;
+}
+
+.pz_overflow{
+	overflow: auto;
+	height: 100%;
+}
